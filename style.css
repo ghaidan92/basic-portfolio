@@ -9,13 +9,15 @@ body {
   }
   
   header {
-    background: #333;
+    /* background: #333;
+    margin-right: 800px;
+    margin-left: 100px; */
   }
   
   h1 {
-    text-align: center;
+    text-align: left;
     padding: 20px 0;
-    margin: 0;
+    margin-left: 100px;
     margin-bottom: 20px;
     font-size: 28px;
     color: #eee;
@@ -52,4 +54,34 @@ body {
     width: 200px;
     height: 200px;
     margin-right: 20px;
+  }
+
+  .nav-item {
+    
+  }
+
+  hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  }
+
+  #rightnav {
+    float: right;
+    margin-right: 11%;
+  }
+
+  #leftnav {
+    float: left;
+    margin-left: 11%;
+  }
+
+  .contact-form {
+    /* contain: content; */
+  }
+
+  .form-group {
+    clear: both;
+    contain: content;
   }
