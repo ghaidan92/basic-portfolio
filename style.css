@@ -5,7 +5,7 @@ body {
     font-size: 18px;
     line-height: 150%;
     color: #333;
-    background: #efeee7;
+    background: #efeee77a;
   }
   
   header {
@@ -34,6 +34,7 @@ body {
   .container {
     width: 1024px;
     margin: 0 auto;
+    background-color: #eee;
   }
   
   #main-bio,
@@ -43,7 +44,8 @@ body {
   }
   
   #main-bio {
-    width: 70%;
+    width: 100%;
+    background-color: #eee;
   }
   
   #contact-info {
@@ -56,8 +58,8 @@ body {
     margin-right: 20px;
   }
 
-  .nav-item {
-    
+  .nav-link {
+    margin-left: 10%;
   }
 
   hr {
@@ -67,21 +69,27 @@ body {
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
   }
 
+  .navbar-brand {
+    color: #eee !important;
+  }
+
   #rightnav {
     float: right;
     margin-right: 11%;
+    text-align: right;
   }
 
   #leftnav {
     float: left;
     margin-left: 11%;
+    background-color: rgb(84, 158, 146) !important;
   }
 
-  .contact-form {
-    /* contain: content; */
-  }
+  /* .contact-form {
+    contain: content;
+  } */
 
   .form-group {
     clear: both;
-    contain: content;
+    /* contain: content; */
   }
