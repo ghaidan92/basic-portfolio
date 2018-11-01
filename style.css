@@ -34,7 +34,7 @@ body {
   .container {
     width: 1024px;
     margin: 0 auto;
-    background-color: #eee;
+    /* background-color: #eee; */
   }
   
   #main-bio,
@@ -75,14 +75,18 @@ body {
 
   #rightnav {
     float: right;
-    margin-right: 11%;
+    margin-right: 0%;
     text-align: right;
+    margin-top: 20px;
+    margin-bottom: 15px;
   }
 
   #leftnav {
     float: left;
-    margin-left: 11%;
+    margin-left: 0%;
     background-color: rgb(84, 158, 146) !important;
+    margin-top: 20px;
+    margin-bottom: 15px;
   }
 
   /* .contact-form {
@@ -92,4 +96,9 @@ body {
   .form-group {
     clear: both;
     /* contain: content; */
+  }
+
+  .contact-form {
+    background-color: #eee;
+    clear: both;
   }
