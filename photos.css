@@ -1,0 +1,45 @@
+body {
+	background-color: gray;
+	border-width: 20px;
+	border-color: red;
+}
+
+p, hr {
+	background-color: gray;
+}
+
+img {
+	height: 300px;
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+}
+
+p {
+	margin-left: 1.66%;
+	font-size: 15px;
+	text-transform: uppercase;
+	border-bottom: 3px solid black;
+	width: 30%;
+	padding-bottom: 5px;
+}
+
+#rightnav {
+    float: right;
+    margin-right: 0%;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  #leftnav {
+    float: left;
+    margin-left: 0%;
+    background-color: rgb(84, 158, 146) !important;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  .contact-form {
+    /* background-color: #eee; */
+    clear: both;
