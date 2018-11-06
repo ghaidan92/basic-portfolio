@@ -9,10 +9,10 @@ p, hr {
 }
 
 img {
-	height: 300px;
-	width: 30%;
-	float: left;
-	margin: 1.66%;
+	height: 220px;
+	width: 220px;
+	/* float: left; */
+	margin-bottom: 30px;
 }
 
 p {
